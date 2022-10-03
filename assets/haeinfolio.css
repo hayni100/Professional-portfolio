@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  padding-top: 15px;
+  margin: 0;
+}
+
+body {
+  background-color:rgb(140, 193, 237);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: white;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color:white;
+  margin: 50px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 80px;
+  padding: 40px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+}
+.haein {
+  text-align: left;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kim {
+  text-align: right;
+}
+.header h1 {
+  padding: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 120px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  margin-left: 20px;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  text-align: left;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+
+.profile img {
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+
+}
+section #profile-layout .profile {
+display: flex;
+flex-direction: column;
+}
+
+.introduction {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  padding: 20px;
+  line-height: 30px;
+}
+
+.profile, h2 {
+  display:flex;
+  padding:20px;
+  flex-direction: row;
+  justify-content: flex-start;
+} 
+
+.box-layout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  margin: 20px;
+}
+
+.box-layout h2 {
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.my-work {
+  background-color: rgba(169, 160, 188, 0.544);
+  border-bottom: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-top-width: 10px;
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+  height:200px;
+  width: 100%;
+}
+
+.my-work h2 {
+  font-size: 1.5rem;
+  display: flex;  
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: left;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  indet
+
+}
+
+.highlight-A {
+  background-image: url("blue.jpeg");
+  background-size: cover;
+  border-style: solid;
+  border-top-width: 10px;
+  border-bottom-width: 5px;
+  border-left-width: 10px;
+  border-right-width: 5px;
+  border-color: rgba(169, 160, 188, 0.544);
+  padding: 20px;
+  height:200px;
+  width: 50%;
+
+}
+
+.highlights h2 {
+  color: rgb(34, 76, 98);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.highlight-B {
+  background-image: url("blue.jpeg");
+  background-size: cover;
+  border-style: solid;
+  border-top-width: 10px;
+  border-bottom-width:5px;
+  border-right-width: 10px;
+  border-left-width: 5px;
+  border-color: rgba(169, 160, 188, 0.544);
+  padding: 20px;
+  height:200px;
+  width: 50%;
+}
+
+.highlight-C {
+  background-image: url("blue.jpeg");
+  background-size: cover;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 5px;
+  border-color: rgba(169, 160, 188, 0.544);
+  padding: 20px;
+  height:200px;
+  width: 50%;
+}
+
+.highlight-D {
+  background-image: url("blue.jpeg");
+  background-size: cover;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 5px;
+  border-color:rgba(169, 160, 188, 0.544);
+  padding: 20px;
+  height:200px;
+  width: 50%;
+}
+
+.contact-info {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-info ul {
+  display:block;
+}
+
+.linkden {
+  color:rgb(34, 76, 98)
+}
+
+.footer {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
