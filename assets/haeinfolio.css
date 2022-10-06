@@ -158,17 +158,9 @@ h2 {
   margin: 20px;
 }
 
-.box-layout div:link {
-  text-decoration: none;
-}
-
 .box-layout article:link {
   color: white;
   text-decoration: none;
-}
-
-.box-layout article:visited {
-  color: rgb(7, 6, 6)
 }
 
 .box-layout article:hover {
@@ -191,11 +183,16 @@ h2 {
 }
 
 .my-work h2 {
+  color: white;
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
+}
+
+.my-work-link a:link {
+  text-decoration: none;
 }
 
 .highlights {
