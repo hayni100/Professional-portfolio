@@ -92,7 +92,7 @@ ul {
 
 .profile {
   flex-direction: row;
-  height: 200px;
+  height: 100%;
   width: 100%;
 }
 
@@ -105,14 +105,15 @@ section #profile-layout .profile {
   flex-direction: column;
 }
 
-.introduction {
-  font-size: 1rem;
+#introduction {
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
   line-height: 30px;
+  white-space: normal;
 }
 
 .profile,
@@ -120,7 +121,6 @@ h2 {
   display: flex;
   padding: 20px;
   flex-direction: row;
-  justify-content: flex-start;
 }
 
 .box-layout {
@@ -170,7 +170,7 @@ h2 {
   background-size: cover;
   padding: 20px;
   height: 200px;
-  width: 50%;
+  width: 47%;
 }
 
 .highlights h2 {
@@ -283,7 +283,19 @@ nav {
       padding-left: 10px;
       align-content: space-between;
   }
+
+  .introduction p {
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    line-height: 30px;
+  } 
 }
+
+
 
 /* Large smartphones*/
 @media screen and (max-width: 768px) {
@@ -298,6 +310,15 @@ nav {
    display: flex;
    flex-direction: column;
    align-items: left;
+  }
+
+  header {
+    font-size: 60px;
+    padding: 0px 20px 20px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
   }
 
   .header h1 {
@@ -323,10 +344,19 @@ ul {
   justify-content: flex-start;
 }
 
+.highlights article {
+  margin: 10px;
+  background-image: url("blue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 200px;
+  width: 100%;
+}
 
 /* Small smartphones */
 @media screen and (max-width: 576px) {
-  body {
-    background-color: #b30c5f;
+body {
+    background-color:pink;
   }
 }
