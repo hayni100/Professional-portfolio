@@ -8,12 +8,15 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="menu">
     <div class="navbar">
       <h1 class="haein">HAEIN</h1>
 
       <nav>
         <ul>
+          <li class="menu">
+            <a href="#menu">| MENU</a>
+          </li>
           <li>
             <a href="#about-me">| A little bit about me</a>
           </li>
@@ -33,12 +36,12 @@
             <a href="#highlight-D">| Highlight-D</a>
           </li>
           <li>
-            <a href="#contact-info">Contact info</a>
-
+            <a href="#contact-info">|Contact info</a>
         </ul>
-
       </nav>
-
+      <aside>
+        <a href="#menu"></a>
+      </aside>
     </div>
     <h1 class="kim">KIM</h1>
   </header>
@@ -60,9 +63,13 @@
     </section>
 
     <section class="box-layout">
-      <article class="my-work" id="my-work">
-        <h2>My Work</h2>
-      </article>
+      <div>
+        <a href="https://hayni100.github.io/Semantic-HTML/">
+          <article class="my-work" id="my-work">
+            <h2>My Recent Work</h2>
+          </article>
+        </a>
+      </div>
       <div class="highlights">
         <article class="highlight-A" id="highlight-A">
           <h2>Highlight A</h2>
@@ -86,15 +93,24 @@
     <section class="contact-info" id="contact-info">
       <h2>Contact info</h2>
       <ul>
-        <li>Email: hayni100@gmail.com</li>
-        <li>Github:</li>
-        <li>linkden: <a class="linkden" href="url">https://www.linkedin.com/in/haein-kim-8b23721ba/"</a></li>
+        <li>🦋 Email 🦋</li>
+        <li>hayni100@gmail.com</li>
+        <li>
+          <a class="send-email" href="mailto:hayni100@gmail.com">Send Email</a>
+        </li>
+        <li>
+          <a href="https://github.com/hayni100">🦋 Github 🦋</a>
+        </li>
+        <li>
+          <a class="linkden" href="https://www.linkedin.com/in/haein-kim-8b23721ba/">🦋 Linkdin 🦋</a>
+        </li>
       </ul>
+
     </section>
   </main>
 
   <footer class="footer">
-    <h2>| Thank you for visiting |</h2>
+    <h3>| Thank you for visiting |</h3>
   </footer>
 </body>
 
