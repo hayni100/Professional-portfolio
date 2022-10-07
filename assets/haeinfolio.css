@@ -163,12 +163,13 @@ h2 {
   text-decoration: none;
 }
 
-.box-layout article:hover {
+.my-work:hover {
   cursor: pointer;
   background-color: rgba(195, 209, 222, 0.532);
   border-radius: 50px;
   padding: 5px;
 }
+
 .my-work {
   background-color: rgba(169, 160, 188, 0.544);
   border-bottom: 10px;
@@ -201,7 +202,37 @@ h2 {
   flex-wrap: wrap;
 }
 
-.highlights article {
+.A-link {
+  margin: 10px;
+  background-image: url("blue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 200px;
+  width: 47%; 
+}
+
+.B-link {
+margin: 10px;
+background-image: url("blue.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+height: 200px;
+width: 47%;
+}
+
+.C-link {
+  margin: 10px;
+  background-image: url("blue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 200px;
+  width: 47%;
+}
+
+.D-link {
   margin: 10px;
   background-image: url("blue.jpeg");
   background-repeat: no-repeat;
